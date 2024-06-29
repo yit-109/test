@@ -15,7 +15,7 @@ body {
 
 @media (min-width: 600px) {
     .container {
-        width: 500px; /* 画面幅が600px以上のときは500pxに設定 */
+        width: 250%; /* 画面幅が600px以上のときは500pxに設定 */
     }
 }
 
