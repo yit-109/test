@@ -9,16 +9,9 @@ body {
     border: 10px solid #000;
     padding: 20px;
     background-color: #e0ffdb;
-    width: 100%; /* デフォルトでは幅を100%に設定 */
+    width: 500%; /* デフォルトでは幅を100%に設定 */
     box-sizing: border-box; /* パディングとボーダーを含めて幅を計算 */
 }
-
-@media (min-width: 600px) {
-    .container {
-        width: 250%; /* 画面幅が600px以上のときは500pxに設定 */
-    }
-}
-
 
 .button {
     display: block;
