@@ -36,3 +36,12 @@ body {
 .red-text {
     color: red;
 }
+
+.full_width {
+    margin-left: calc(150% - 100vw);
+    width: 200vw;
+}
+
+.full_height {
+     height: 200vh;
+}
