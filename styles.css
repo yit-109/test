@@ -5,12 +5,13 @@ body {
 }
 
 .container {
-    display: inline-block;
-    border: 10px solid #000;
+    margin: 20px auto;
     padding: 20px;
+    border: 10px solid #000;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 700px;
     background-color: #e0ffdb;
-    width: 500%; /* デフォルトでは幅を100%に設定 */
-    box-sizing: border-box; /* パディングとボーダーを含めて幅を計算 */
 }
 
 .button {
