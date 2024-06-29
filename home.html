@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>2-2 すーもらんど へようこそ！！</title>
+    <style>
+        
+        .full_height {
+            height: 200vh;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>2-2<br>Welcome to<br>SUUMO LAND</h1>
+        <p>開始するには下部の[開始]ボタンを押してください。</p>
+        <p class="red-text">※指示があるまではボタンを押さないでください。</p>
+        <a href="bonus.html" class="button" id="startButton"><strong>開始</strong></a>
+    </div>
+
+    <script>
+        document.getElementById('startButton').addEventListener('click', function(event) {
+            event.preventDefault(); // デフォルトのリンク遷移を防止します
+            if (confirm('スタッフの確認はしましたか？')) {
+                window.location.href = this.href; // 確認ダイアログで「OK」が押された場合、リンク先へ遷移します
+            }
+        });
+    </script>
+</body>
+</html>

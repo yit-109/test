@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>最終ページ</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const selectedValue = sessionStorage.getItem('selectedValue');
+            if (selectedValue) {
+                document.getElementById('selected-value').textContent = `選択された値は: ${selectedValue}`;
+            } else {
+                document.getElementById('selected-value').textContent = '値が選択されていません。';
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>最終ページ</h1>
+        <p id="selected-value"></p>
+    </div>
+</body>
+</html>

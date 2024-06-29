@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-color: #cfc;
+    font-family: Arial, sans-serif;
+    zoom: 250%;
+}
+
+.container {
+    display: inline-block;
+    border: 10px solid #000;
+    padding: 25px;
+    background-color: #66FF33;
+}
+
+.button {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    background: linear-gradient(to bottom, #ffc107, #d4a017);
+    color: red;
+    font-size: 24px;
+    text-decoration: none;
+    border: 5px solid #000;
+    box-shadow: 0 5px #999;
+    transition: all 0.2s ease;
+}
+
+.button:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.red-text {
+    color: red;
+}
+
